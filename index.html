@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Adhika Chandra Prayogi Suprapto</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-primary" href="#beranda">Adhika Chandra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION -->
+        <section id="beranda" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 text-center text-lg-start order-2 order-lg-1">
+                        <p class="hero-subtitle">Halo, saya</p>
+                        <h1 class="hero-title">Adhika Chandra Prayogi Suprapto</h1>
+                        <h2 class="hero-role">Mahasiswa Sistem Informasi · Aspiring Web Developer</h2>
+                        <p class="hero-desc">
+                            Sedang mendalami Sistem Informasi di UKSW dan terus berlatih membuat karya digital yang rapi, fungsional, dan mudah digunakan.
+                        </p>
+                        <div class="hero-buttons mt-4">
+                            <a href="#proyek" class="btn btn-primary btn-lg me-2">Lihat Proyek</a>
+                            <a href="#kontak" class="btn btn-outline-primary btn-lg">Hubungi Saya</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center order-1 order-lg-2 mb-4 mb-lg-0">
+                        <div class="profile-photo-wrapper">
+                            <img src="assets/img/profil.jpg" alt="Foto Profil Adhika" class="profile-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. TENTANG DIRI -->
+        <section id="tentang" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Tentang Saya</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <p class="text-center about-text">
+                            Halo, saya Adhika, mahasiswa Program Studi Sistem Informasi Fakultas Teknologi Informasi Universitas Kristen Satya Wacana. Saya memilih bidang ini karena ingin memperdalam pemahaman tentang teknologi sekaligus membangun prospek karier yang fleksibel di era digital. Saat ini saya fokus mempelajari pengembangan web dan terus melatih diri membuat karya yang rapi, fungsional, dan mudah digunakan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3b. KEAHLIAN -->
+        <section id="keahlian" class="section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Keahlian</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card text-center">
+                            <i class="bi bi-filetype- skill-icon"></i>
+                            <h6>HTML5</h6>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card text-center">
+                            <i class="bi bi-filetype-vscode skill-icon"></i>
+                            <h6>Pythone Dasar</h6>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card text-center">
+                            <i class="bi bi-figma skill-icon"></i>
+                            <h6>Figma</h6>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="skill-card text-center">
+                            <i class="bi bi-filetype-excel skill-icon"></i>
+                            <h6>Microsoft Word</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. GALERI PROYEK -->
+        <section id="proyek" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Proyek & Karya</h2>
+                <div class="row g-4">
+                    <!-- Proyek 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card project-card h-100">
+                            <img src="assets/img/proyek1.png" class="card-img-top" alt="Proyek 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Program Pythone Instalasi vscode</h5>
+                                <p class="card-text">Instalasi Visual Studio Code dan Python membantu mempermudah proses pembelajaran pemrograman. Melalui aplikasi ini, pengguna dapat menulis dan menjalankan kode Python dengan lebih praktis..</p>
+                                <span class="badge bg-primary">Pythone</span>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyek 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card project-card h-100">
+                            <img src="assets/img/proyek2.png" class="card-img-top" alt="Proyek 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Desain Iphone 18 yogi</h5>
+                                <p class="card-text">Desain poster ini dibuat untuk menarik perhatian konsumen melalui tampilan visual yang modern dan informatif. Dengan penempatan gambar, tulisan, serta kombinasi warna yang tepat, diharapkan promosi iPhone 18 dapat tersampaikan dengan baik kepada masyarakat.</p>
+                                <span class="badge bg-primary">Figma</span>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyek 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card project-card h-100">
+                            <img src="assets/img/proyek3.png" class="card-img-top" alt="Proyek 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Karya Ilmiah</h5>
+                                <p class="card-text">Pengerjaan karya ilmiah secara berkelompok dapat meningkatkan kerja sama, tanggung jawab, dan kemampuan berpikir kritis setiap anggota dalam menyelesaikan suatu permasalahan.</p>
+                                <span class="badge bg-primary">MicrosoftWord</span>
+                                <span class="badge bg-primary">Excel</span>
+                            </div>
+                            <div class="card-footer bg-white border-0">
+                                <a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CREATIVE CHALLENGE: TIMELINE -->
+        <section id="perjalanan" class="section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Perjalanan & Target</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2026</div>
+                                <div class="timeline-content">
+                                    <h5>Awal Kuliah di UKSW</h5>
+                                    <p>Memasuki Program Studi Sistem Informasi, Fakultas Teknologi Informasi.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2026</div>
+                                <div class="timeline-content">
+                                    <h5>Belajar Dasar Web Development</h5>
+                                    <p>Mengenal dan mempraktikkan HTML5, CSS3, Bootstrap 5, dan JavaScript.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2026</div>
+                                <div class="timeline-content">
+                                    <h5>Membangun Aset Digital Pertama</h5>
+                                    <p>Menyelesaikan website portofolio ini sebagai langkah awal membangun personal branding.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5. FOOTER -->
+    <footer id="kontak" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h4 class="fw-bold mb-3">Adhika Chandra Prayogi Suprapto</h4>
+                    <p class="mb-3">Mari berkolaborasi dan belajar bersama. 🚀</p>
+                    <div class="social-links">
+                        <a href="https://github.com/adhikacp" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/adhikacp" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.instagram.com/dk.yogii/" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:682026068@student.uksw.edu" class="social-icon"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <h5 class="fw-bold mb-3">Kontak</h5>
+                    <p class="mb-1"><i class="bi bi-geo-alt me-2"></i>Salatiga, Jawa Tengah</p>
+                    <p class="mb-1"><i class="bi bi-envelope me-2"></i>682026068@student.uksw.edu</p>
+                    <p class="mb-0"><i class="bi bi-mortarboard me-2"></i>Sistem Informasi · FTI · UKSW</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center mb-0">
+                &copy; <span id="tahun">2026</span> Adhika Chandra Prayogi Suprapto · NIM 682026068. Dibuat dengan <i class="bi bi-heart-fill text-danger"></i> menggunakan HTML5, Bootstrap 5 & JavaScript.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
